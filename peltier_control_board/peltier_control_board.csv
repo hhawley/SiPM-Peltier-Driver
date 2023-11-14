@@ -1,0 +1,81 @@
+Source:,C:\Users\StaticPopcorn\OneDrive - Queen's University\Research\Research - SIPMs - Queens\Project - SiPM Cooler v2\Circuits\peltier_control_board\peltier_control_board.sch,,,,,,,,,,,
+Date:,2021-05-17 14:10,,,,,,,,,,,
+Tool:,Eeschema (5.1.9)-1,,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,
+Component Count:,41,,,,,,,,,,,
+,,,,,,,,,,,,
+Individual Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+,,C1,100u,SamacSys_Parts:EEU-FR1V101,CAPPRD350W65D800H1300,https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf,Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm,13,Panasonic,EEU-FR1V101,667-EEU-FR1V101,https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D
+,,C2,100u,SamacSys_Parts:EEU-FR1V101,CAPPRD350W65D800H1300,https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf,Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm,13,Panasonic,EEU-FR1V101,667-EEU-FR1V101,https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D
+,,C3,22u,Device:C,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,~,,,,,,
+,,C4,22u,Device:C,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,~,,,,,,
+,,C5,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C6,10u,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,,,,,,
+,,C7,10u,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,,,,,,
+,,C8,100n,Device:C,,~,,,,,,
+,,C9,470p,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C10,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C11,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C12,100n,Device:C,,~,,,,,,
+,,C13,10n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C14,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C15,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+,,C16,10u,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,,,,,,
+,,D1,LED,Device:LED,,~,,,,,,
+,,D2,FSV1045V,SamacSys_Parts:FSV1045V,FSV1045V,http://www.onsemi.com/pub/Collateral/340BQ.PDF,"ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A",1.2,ON Semiconductor,FSV1045V,512-FSV1045V,https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV1045V?qs=Qe1jOhZwee1FB3knxHzFdQ%3D%3D
+,,D3,Green,Device:LED,,~,,,,,,
+,,IC1,MCP4726A0T-E_CH,SamacSys_Parts:MCP4726A0T-E_CH,SOT95P270X145-6N,,"12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23",1.45,Microchip,MCP4726A0T-E/CH,579-MCP4726A0TECH,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D
+,,IC2,TLV431CSN1T1G,SamacSys_Parts:TLV431CSN1T1G,SOT96P237X111-3N,https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF,Voltage References LOW VOLTAGE PRECISION ADJ,1.11,ON Semiconductor,TLV431CSN1T1G,863-TLV431CSN1T1G,https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TLV431CSN1T1G?qs=dbuNSGnowt1DjYMSHayOCQ%3D%3D
+,,IC3,TLA2022,SamacSys_Parts:TLA2022IRUGR,TLA2022IRUGR,http://www.ti.com/lit/gpn/tla2022,"12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications",0.4,Texas Instruments,TLA2022IRUGR,595-TLA2022IRUGR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLA2022IRUGR?qs=chTDxNqvsykyg71nZ9VtJw%3D%3D
+,,J1,TBP01R1-508-04BE,SamacSys_Parts:TBP01R1-508-04BE,TBP01R150804BE,https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0,"Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue",8.9,CUI Inc.,TBP01R1-508-04BE,490-TBP01R1-508-04BE,https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D
+,,J2,TBP01R1-508-04BE,SamacSys_Parts:TBP01R1-508-04BE,TBP01R150804BE,https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0,"Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue",8.9,CUI Inc.,TBP01R1-508-04BE,490-TBP01R1-508-04BE,https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D
+,,L1,150u,pspice:INDUCTOR,S14100032,https://componentsearchengine.com/Datasheets/1/S14100032.pdf,Common Mode Chokes / Filters WE-LCB Toroid Line Filter,18,Wurth Elektronik,S14100032,710-S14100032,https://www.mouser.com/Search/Refine.aspx?Keyword=710-S14100032
+,,Q1,ECH8310-TL-H,SamacSys_Parts:ECH8310-TL-H,SOTFL65P280X95-8N,https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf,"ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH",0.95,ON Semiconductor,ECH8310-TL-H,863-ECH8310-TL-H,https://www.mouser.com/Search/Refine.aspx?Keyword=863-ECH8310-TL-H
+,,R1,1m,Device:R_US,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,,,,,,
+,,R2,40m,Device:R_US,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,~,,,,,,
+,,R3,24.9k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R4,45.3k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R5,45.3k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R6,6.2k,Device:R_US,,~,,,,,,
+,,R7,9.53k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R8,45.3k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R9,1k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R10,1k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R11,1k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R12,45.3k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,R13,1k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+,,U1,LM3409MY_NOPB,SamacSys_Parts:LM3409MY_NOPB,SOP50P490X109-11N,http://www.ti.com/lit/gpn/lm3409,PFET Buck Controller for High Power LED Drives,1.09,Texas Instruments,LM3409MY/NOPB,926-LM3409MY/NOPB,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3409MY-NOPB?qs=X1J7HmVL2ZGqIpHW5lOXJA%3D%3D
+,,U2,INA199C,SamacSys_Parts:INA199C1QDCKRQ1,SOT65P210X110-6N,http://www.ti.com/lit/gpn/ina199-q1,"AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier",1.1,Texas Instruments,INA199C1QDCKRQ1,595-INA199C1QDCKRQ1,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C1QDCKRQ1/?qs=0C8XhJW8e4oUB5QKvgAXaQ%3D%3D
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+1,2,"C1, C2",100u,SamacSys_Parts:EEU-FR1V101,CAPPRD350W65D800H1300,https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf,Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm,13,Panasonic,EEU-FR1V101,667-EEU-FR1V101,https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D
+2,2,"C3, C4",22u,Device:C,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,~,,,,,,
+3,5,"C5, C10, C11, C14, C15",100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+4,3,"C6, C7, C16",10u,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,,,,,,
+5,2,"C8, C12",100n,Device:C,,~,,,,,,
+6,1,C9,470p,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+7,1,C13,10n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,
+8,1,D1,LED,Device:LED,,~,,,,,,
+9,1,D2,FSV1045V,SamacSys_Parts:FSV1045V,FSV1045V,http://www.onsemi.com/pub/Collateral/340BQ.PDF,"ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A",1.2,ON Semiconductor,FSV1045V,512-FSV1045V,https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV1045V?qs=Qe1jOhZwee1FB3knxHzFdQ%3D%3D
+10,1,D3,Green,Device:LED,,~,,,,,,
+11,1,IC1,MCP4726A0T-E_CH,SamacSys_Parts:MCP4726A0T-E_CH,SOT95P270X145-6N,,"12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23",1.45,Microchip,MCP4726A0T-E/CH,579-MCP4726A0TECH,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D
+12,1,IC2,TLV431CSN1T1G,SamacSys_Parts:TLV431CSN1T1G,SOT96P237X111-3N,https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF,Voltage References LOW VOLTAGE PRECISION ADJ,1.11,ON Semiconductor,TLV431CSN1T1G,863-TLV431CSN1T1G,https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TLV431CSN1T1G?qs=dbuNSGnowt1DjYMSHayOCQ%3D%3D
+13,1,IC3,TLA2022,SamacSys_Parts:TLA2022IRUGR,TLA2022IRUGR,http://www.ti.com/lit/gpn/tla2022,"12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications",0.4,Texas Instruments,TLA2022IRUGR,595-TLA2022IRUGR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLA2022IRUGR?qs=chTDxNqvsykyg71nZ9VtJw%3D%3D
+14,2,"J1, J2",TBP01R1-508-04BE,SamacSys_Parts:TBP01R1-508-04BE,TBP01R150804BE,https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0,"Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue",8.9,CUI Inc.,TBP01R1-508-04BE,490-TBP01R1-508-04BE,https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D
+15,1,L1,150u,pspice:INDUCTOR,S14100032,https://componentsearchengine.com/Datasheets/1/S14100032.pdf,Common Mode Chokes / Filters WE-LCB Toroid Line Filter,18,Wurth Elektronik,S14100032,710-S14100032,https://www.mouser.com/Search/Refine.aspx?Keyword=710-S14100032
+16,1,Q1,ECH8310-TL-H,SamacSys_Parts:ECH8310-TL-H,SOTFL65P280X95-8N,https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf,"ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH",0.95,ON Semiconductor,ECH8310-TL-H,863-ECH8310-TL-H,https://www.mouser.com/Search/Refine.aspx?Keyword=863-ECH8310-TL-H
+17,1,R1,1m,Device:R_US,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,,,,,,
+18,1,R2,40m,Device:R_US,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,~,,,,,,
+19,1,R3,24.9k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+20,4,"R4, R5, R8, R12",45.3k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+21,1,R6,6.2k,Device:R_US,,~,,,,,,
+22,1,R7,9.53k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+23,4,"R9, R10, R11, R13",1k,Device:R_US,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,
+24,1,U1,LM3409MY_NOPB,SamacSys_Parts:LM3409MY_NOPB,SOP50P490X109-11N,http://www.ti.com/lit/gpn/lm3409,PFET Buck Controller for High Power LED Drives,1.09,Texas Instruments,LM3409MY/NOPB,926-LM3409MY/NOPB,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3409MY-NOPB?qs=X1J7HmVL2ZGqIpHW5lOXJA%3D%3D
+25,1,U2,INA199C,SamacSys_Parts:INA199C1QDCKRQ1,SOT65P210X110-6N,http://www.ti.com/lit/gpn/ina199-q1,"AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier",1.1,Texas Instruments,INA199C1QDCKRQ1,595-INA199C1QDCKRQ1,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C1QDCKRQ1/?qs=0C8XhJW8e4oUB5QKvgAXaQ%3D%3D

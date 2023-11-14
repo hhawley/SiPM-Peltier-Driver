@@ -1,0 +1,46 @@
+The design of the peltier controller consists of a PT100 RTD, a MAX31865 board to read the values from the RTD, the peltier is a CP60131H, and the DAC is a PWM 15 bit DAC directly fed from a Teensy 4.1
+
+You can see the pictures for all the details but here is a summary of all of them:
+
+MAX31865:
+	* 15 bit ADC
+	* 0.03125C resolution
+	* 0.5C accuracy
+	* 21 ms (max) conversion time
+
+Teensy 4.1 PWM:
+	* 15 bit : 4577.64Hz @ 600 MHz
+	* 12 bit : 32226Hz   @ 600 MHz
+
+CP60131H:
+	* 6A current max
+	* 3.8 (Lets round to 4)V max
+	* 70 delta T
+
+Max Design requirements:
+	* 12 bit current control
+	* Good temperature stability
+	* 6.5A absolute max
+	* Ripple 1mA max current (to keep below 1LSB, 6/2^12)
+
+	* Everything must be calibrated to 1%
+	* Cheap as possible
+	* Able to measure current and temperature but not at the same time
+	* 30 ms acquisition time (33 Hz approx)
+
+As MAX31865 is setting the conversion time, I want my DAC PWM to have a settling time of tau~=1ms. Temp conversion wont happen during settling time.  Therefore, 21+6*taus = 27ms is the fastest conversion time. 
+
+The cut-off frequency of the filter with this tau is ~160Hz (1.456 decades away from PWM frequency). Is this reduction enough to remove most of the ripple? With 2 poles, that is -58.2dB reduction.
+
+Main harmonic of a square wave is 4/pi. a1 = 1.273, 20*log(a1) ~ 2.1 dB. Total reduction -> -56.1dB. With a Vpp = 1 equals a ripple (approx) of 1.6mV. Resolution of DAC @ 1Vref = 1/2^16 = 1.5uV. Lol nope
+
+If 12 bit is chosen, the frequency is 2.3 decades away. With 2 poles, that is -92dB reduction to the main harmonic. Total reduction -> -89.9dB, with Vpp = 1, ripple equals to 32uV. Voltage resolution of DAC @ 1VRef = 244uV. hey it might be possible!
+
+Still considering if controlling with DAC or PWM
+
+I = V/ 5*Rsense
+
+dI = dV / 5*Rsense,
+Rsense = 0.040 Ohms (see junyper notebook)
+dV = 200uV max
+

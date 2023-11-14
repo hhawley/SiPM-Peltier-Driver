@@ -1,0 +1,37 @@
+************************* ECH8310 SPICE PARAMETER ****************************
+.MODEL ECH8310 PMOS (                                LEVEL    = 8             
++VERSION  = 3.2            TNOM     = 27             TOX      = 6.0E-08       
++VTH0     = -2.10          K1       = 3.12           K2       = -0.04         
++NLX      = 1.70E-07       DVT0     = 1.12           DVT1     = 0.38          
++DVT2     = -0.01          U0       = 230            UA       = 8.00E-10      
++UB       = 1.00E-21       VSAT     = 1.25E05        A0       = 0.28          
++AGS      = -0.38          A1       = 0              A2       = 1             
++RDSW     = 9.60E05        PRWG     = 0.0E00         WR       = 1.22          
++WINT     = 0              LINT     = 1.00E-08       VOFF     = 0.00          
++NFACTOR  = 0.72           CIT      = 0              CDSC     = 2.40E-04      
++CDSCD    = 0              ETA0     = 0.90           DSUB     = 0.96          
++PCLM     = 3.80           PDIBLC1  = 0.00           PDIBLC2  = 1.00E-06      
++DROUT    = 0.96           PSCBE1   = 3.60E09        PSCBE2   = 1.00E-06      
++PVAG     = 0.01           DELTA    = 0.024          NGATE    = 1.0E19        
++MOBMOD   = 1              NQSMOD   = 0              NOIMOD   = 1             
++CAPMOD   = 3              XPART    = 0.5            CGSO     = 4.00E-11      
++CGDO     = 3.00E-11       CGBO     = 0              CGSL     = 0             
++CGDL     = 3.30E-10       CKAPPA   = 1.20           CF       = 0             
++CLC      = 3.0E-09        CLE      = 0.8            DWC      = 0             
++DLC      = -1.00E-12      NOFF     = 3.66           VOFFCV   = -0.40         
++ACDE     = 1.0            MOIN     = 15             CJ       = 2.00E-04      
++MJ       = 0.30           PB       = 0.80           JS       = 1.00E-06      
++NJ       = 1.05           XTI      = 3.0            IJTH     = 0             
++KT1      = -0.8           UTE      = -2.0           PRT      = 960.0         
++AT       = 3.3E04         )                                                  
+*                                                                             
+.ENDL ECH8310                                                                 
+*  Device Expression Example                                                  
+*    Electrode = Drain Gate Source                                            
+*    Mxxx Drain Gin Source Body ECH8310 W=3576710E-6 L=1.0E-6 AD=3576710E-12  
+*    RG Gate Gin 25                                                           
+*    RB Body Source 0.008                                                     
+*  Information herein is for example only;                                    
+*  it is not guaranteed for volume production.                                
+* ON Semiconductor                                                            
+*$

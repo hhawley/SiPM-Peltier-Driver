@@ -1,0 +1,244 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ECH8310-TL-H-SamacSys_Parts
+#
+DEF ECH8310-TL-H-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 1350 300 50 H V L CNN
+F1 "ECH8310-TL-H-SamacSys_Parts" 1350 200 50 H V L CNN
+F2 "SOTFL65P280X95-8N" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf" 1350 0 50 H I L CNN
+F4 "ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH" 1350 -100 50 H I L CNN "Description"
+F5 "0.95" 1350 -200 50 H I L CNN "Height"
+F6 "863-ECH8310-TL-H" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-ECH8310-TL-H" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ECH8310-TL-H" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+X SOURCE_1 1 0 0 200 R 50 50 0 0 P
+X SOURCE_2 2 0 -100 200 R 50 50 0 0 P
+X SOURCE_3 3 0 -200 200 R 50 50 0 0 P
+X GATE 4 0 -300 200 R 50 50 0 0 P
+X DRAIN_1 5 1500 0 200 L 50 50 0 0 P
+X DRAIN_2 6 1500 -100 200 L 50 50 0 0 P
+X DRAIN_3 7 1500 -200 200 L 50 50 0 0 P
+X DRAIN_4 8 1500 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EEU-FR1V101-SamacSys_Parts
+#
+DEF EEU-FR1V101-SamacSys_Parts C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEU-FR1V101-SamacSys_Parts" 350 150 50 H V L CNN
+F2 "CAPPRD350W65D800H1300" 350 50 50 H I L CNN
+F3 "https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm" 350 -150 50 H I L CNN "Description"
+F5 "13" 350 -250 50 H I L CNN "Height"
+F6 "667-EEU-FR1V101" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEU-FR1V101" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# FSV1045V-SamacSys_Parts
+#
+DEF FSV1045V-SamacSys_Parts D 0 30 Y Y 1 F N
+F0 "D" 1250 300 50 H V L CNN
+F1 "FSV1045V-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "FSV1045V" 1250 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/340BQ.PDF" 1250 0 50 H I L CNN
+F4 "ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A" 1250 -100 50 H I L CNN "Description"
+F5 "1.2" 1250 -200 50 H I L CNN "Height"
+F6 "512-FSV1045V" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV1045V?qs=Qe1jOhZwee1FB3knxHzFdQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FSV1045V" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+X ANODE_1 1 1400 0 200 L 50 50 0 0 P
+X ANODE_2 2 1400 -100 200 L 50 50 0 0 P
+X CATHODE 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# INA199C1QDCKRQ1-SamacSys_Parts
+#
+DEF INA199C1QDCKRQ1-SamacSys_Parts U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "INA199C1QDCKRQ1-SamacSys_Parts" 850 200 50 H V L CNN
+F2 "SOT65P210X110-6N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ina199-q1" 850 0 50 H I L CNN
+F4 "AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "595-INA199C1QDCKRQ1" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C1QDCKRQ1/?qs=0C8XhJW8e4oUB5QKvgAXaQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "INA199C1QDCKRQ1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X REF 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X V+ 3 0 -200 200 R 50 50 0 0 P
+X IN+ 4 1000 -200 200 L 50 50 0 0 P
+X IN- 5 1000 -100 200 L 50 50 0 0 P
+X OUT 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# LM3409MY_NOPB-SamacSys_Parts
+#
+DEF LM3409MY_NOPB-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LM3409MY_NOPB-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SOP50P490X109-11N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/lm3409" 1050 0 50 H I L CNN
+F4 "PFET Buck Controller for High Power LED Drives" 1050 -100 50 H I L CNN "Description"
+F5 "1.09" 1050 -200 50 H I L CNN "Height"
+F6 "926-LM3409MY/NOPB" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3409MY-NOPB?qs=X1J7HmVL2ZGqIpHW5lOXJA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM3409MY/NOPB" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+X UVLO 1 0 0 200 R 50 50 0 0 P
+X VIN 10 1200 0 200 L 50 50 0 0 P
+X DAP 11 600 -1000 200 U 50 50 0 0 P
+X IADJ 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X COFF 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X PGATE 6 1200 -400 200 L 50 50 0 0 P
+X CSN 7 1200 -300 200 L 50 50 0 0 P
+X CSP 8 1200 -200 200 L 50 50 0 0 P
+X VCC 9 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MCP4726A0T-E_CH-SamacSys_Parts
+#
+DEF MCP4726A0T-E_CH-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MCP4726A0T-E_CH-SamacSys_Parts" 950 200 50 H V L CNN
+F2 "SOT95P270X145-6N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "579-MCP4726A0TECH" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP4726A0T-E/CH" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X VSS 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 P
+X SDA 4 1100 -200 200 L 50 50 0 0 P
+X SCL 5 1100 -100 200 L 50 50 0 0 P
+X VREF 6 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TBP01R1-508-02BE-SamacSys_Parts
+#
+DEF TBP01R1-508-02BE-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TBP01R1-508-02BE-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TBP01R150802BE" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TBP01R1-508-02BE.pdf" 650 0 50 H I L CNN
+F4 "Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 2 pole, blue" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "490-TBP01R1-508-02BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-02BE?qs=PzGy0jfpSMuT8jxfc02aCw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TBP01R1-508-02BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TBP01R1-508-04BE-SamacSys_Parts
+#
+DEF TBP01R1-508-04BE-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TBP01R1-508-04BE-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TBP01R150804BE" 650 100 50 H I L CNN
+F3 "https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0" 650 0 50 H I L CNN
+F4 "Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue" 650 -100 50 H I L CNN "Description"
+F5 "8.9" 650 -200 50 H I L CNN "Height"
+F6 "490-TBP01R1-508-04BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TBP01R1-508-04BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TLA2022IRUGR-SamacSys_Parts
+#
+DEF TLA2022IRUGR-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 950 600 50 H V L CNN
+F1 "TLA2022IRUGR-SamacSys_Parts" 950 500 50 H V L CNN
+F2 "TLA2022IRUGR" 950 400 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tla2022" 950 300 50 H I L CNN
+F4 "12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications" 950 200 50 H I L CNN "Description"
+F5 "0.4" 950 100 50 H I L CNN "Height"
+F6 "595-TLA2022IRUGR" 950 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLA2022IRUGR?qs=chTDxNqvsykyg71nZ9VtJw%3D%3D" 950 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -200 50 H I L CNN "Manufacturer_Name"
+F9 "TLA2022IRUGR" 950 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 400 900 400 900 -400 200 -400 200 400 N
+X ADDR 1 400 -600 200 U 50 50 0 0 I
+X SCL 10 0 0 200 R 50 50 0 0 B
+X NC_1 2 500 -600 200 U 50 50 0 0 P
+X GND 3 600 -600 200 U 50 50 0 0 W
+X AIN0 4 700 -600 200 U 50 50 0 0 I
+X AIN1 5 1100 0 200 L 50 50 0 0 I
+X NC_2 6 700 600 200 D 50 50 0 0 I
+X NC_3 7 600 600 200 D 50 50 0 0 P
+X VDD 8 500 600 200 D 50 50 0 0 P
+X SDA 9 400 600 200 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TLV431CSN1T1G-SamacSys_Parts
+#
+DEF TLV431CSN1T1G-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "TLV431CSN1T1G-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "SOT96P237X111-3N" 1250 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF" 1250 0 50 H I L CNN
+F4 "Voltage References LOW VOLTAGE PRECISION ADJ" 1250 -100 50 H I L CNN "Description"
+F5 "1.11" 1250 -200 50 H I L CNN "Height"
+F6 "863-TLV431CSN1T1G" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TLV431CSN1T1G?qs=dbuNSGnowt1DjYMSHayOCQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV431CSN1T1G" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+X REFERENCE 1 0 0 200 R 50 50 0 0 P
+X CATHODE 2 0 -100 200 R 50 50 0 0 P
+X ANODE 3 1400 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

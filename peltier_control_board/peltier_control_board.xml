@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\StaticPopcorn\OneDrive - Queen's University\Research\Research - SIPMs - Queens\Project - SiPM Cooler v2\Circuits\peltier_control_board\peltier_control_board.sch</source>
+    <date>2021-05-17 2:10:07 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>peltier_control_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM3409MY_NOPB</value>
+      <footprint>SOP50P490X109-11N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/lm3409</datasheet>
+      <fields>
+        <field name="Description">PFET Buck Controller for High Power LED Drives</field>
+        <field name="Height">1.09</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM3409MY/NOPB</field>
+        <field name="Mouser Part Number">926-LM3409MY/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3409MY-NOPB?qs=X1J7HmVL2ZGqIpHW5lOXJA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM3409MY_NOPB" description="PFET Buck Controller for High Power LED Drives"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C9BDB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>ECH8310-TL-H</value>
+      <footprint>SOTFL65P280X95-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf</datasheet>
+      <fields>
+        <field name="Description">ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH</field>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">ECH8310-TL-H</field>
+        <field name="Mouser Part Number">863-ECH8310-TL-H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-ECH8310-TL-H</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ECH8310-TL-H" description="ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CDD32</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TBP01R1-508-04BE</value>
+      <footprint>TBP01R150804BE</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0</datasheet>
+      <fields>
+        <field name="Description">Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue</field>
+        <field name="Height">8.9</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TBP01R1-508-04BE</field>
+        <field name="Mouser Part Number">490-TBP01R1-508-04BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TBP01R1-508-04BE" description="Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CF6A6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>CAPPRD350W65D800H1300</footprint>
+      <datasheet>https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf</datasheet>
+      <fields>
+        <field name="Description">Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEU-FR1V101</field>
+        <field name="Mouser Part Number">667-EEU-FR1V101</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEU-FR1V101" description="Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D7546</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>CAPPRD350W65D800H1300</footprint>
+      <datasheet>https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf</datasheet>
+      <fields>
+        <field name="Description">Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEU-FR1V101</field>
+        <field name="Mouser Part Number">667-EEU-FR1V101</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEU-FR1V101" description="Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D92FE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>FSV1045V</value>
+      <footprint>FSV1045V</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/340BQ.PDF</datasheet>
+      <fields>
+        <field name="Description">ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FSV1045V</field>
+        <field name="Mouser Part Number">512-FSV1045V</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV1045V?qs=Qe1jOhZwee1FB3knxHzFdQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="FSV1045V" description="ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609DA7BC</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP4726A0T-E_CH</value>
+      <footprint>SOT95P270X145-6N</footprint>
+      <fields>
+        <field name="Description">12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP4726A0T-E/CH</field>
+        <field name="Mouser Part Number">579-MCP4726A0TECH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP4726A0T-E_CH" description="12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609DD400</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>150u</value>
+      <footprint>S14100032</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/S14100032.pdf</datasheet>
+      <fields>
+        <field name="Description">Common Mode Chokes / Filters WE-LCB Toroid Line Filter</field>
+        <field name="Height">18</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">S14100032</field>
+        <field name="Mouser Part Number">710-S14100032</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=710-S14100032</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D1C24</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>INA199C</value>
+      <footprint>SOT65P210X110-6N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ina199-q1</datasheet>
+      <fields>
+        <field name="Description">AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA199C1QDCKRQ1</field>
+        <field name="Mouser Part Number">595-INA199C1QDCKRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C1QDCKRQ1/?qs=0C8XhJW8e4oUB5QKvgAXaQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA199C1QDCKRQ1" description="AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609DE584</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>TLA2022</value>
+      <footprint>TLA2022IRUGR</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tla2022</datasheet>
+      <fields>
+        <field name="Description">12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications</field>
+        <field name="Height">0.4</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLA2022IRUGR</field>
+        <field name="Mouser Part Number">595-TLA2022IRUGR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLA2022IRUGR?qs=chTDxNqvsykyg71nZ9VtJw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TLA2022IRUGR" description="12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609DFA95</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TLV431CSN1T1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Voltage References LOW VOLTAGE PRECISION ADJ</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TLV431CSN1T1G</field>
+        <field name="Mouser Part Number">863-TLV431CSN1T1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TLV431CSN1T1G?qs=dbuNSGnowt1DjYMSHayOCQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TLV431CSN1T1G" description="Voltage References LOW VOLTAGE PRECISION ADJ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609E11E8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A374B5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A3922C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>470p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A3E046</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>6.2k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A3ECC0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A71400</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A3FBA1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>40m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A41C1F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AA27CD</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AABF96</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAF11C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAFA5E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB01EB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB3ADA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>45.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB4951</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>45.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB872B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>9.53k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AF6B2B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>45.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AF7C2F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B1A79C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B40D6D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B48250</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B4F294</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B54154</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B549DC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB127C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A2FB96</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TBP01R1-508-04BE</value>
+      <footprint>TBP01R150804BE</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0</datasheet>
+      <fields>
+        <field name="Description">Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue</field>
+        <field name="Height">8.9</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TBP01R1-508-04BE</field>
+        <field name="Mouser Part Number">490-TBP01R1-508-04BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TBP01R1-508-04BE" description="Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A46308</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Green</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A331B3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A35E64</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>45.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A34FD8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A309CE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ECH8310-TL-H">
+      <description>ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">ECH8310-TL-H</field>
+        <field name="Footprint">SOTFL65P280X95-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ECH8310-TL-H.pdf</field>
+        <field name="Description">ON Semiconductor ECH8310-TL-H P-channel MOSFET Transistor, 9 A, -30 V, 8-Pin ECH</field>
+        <field name="Height">0.95</field>
+        <field name="Mouser Part Number">863-ECH8310-TL-H</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-ECH8310-TL-H</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">ECH8310-TL-H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SOURCE_1" type="passive"/>
+        <pin num="2" name="SOURCE_2" type="passive"/>
+        <pin num="3" name="SOURCE_3" type="passive"/>
+        <pin num="4" name="GATE" type="passive"/>
+        <pin num="5" name="DRAIN_1" type="passive"/>
+        <pin num="6" name="DRAIN_2" type="passive"/>
+        <pin num="7" name="DRAIN_3" type="passive"/>
+        <pin num="8" name="DRAIN_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="EEU-FR1V101">
+      <description>Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm</description>
+      <docs>https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEU-FR1V101</field>
+        <field name="Footprint">CAPPRD350W65D800H1300</field>
+        <field name="Datasheet">https://ms.componentsearchengine.com/Datasheets/1/EEU-FR1V101.pdf</field>
+        <field name="Description">Aluminum Electrolytic Capacitors - Radial Leaded 35VDC 100uF 20% L/S=3.5mm</field>
+        <field name="Height">13</field>
+        <field name="Mouser Part Number">667-EEU-FR1V101</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1V101?qs=tfZGHB2PWd1LosiJY3G7%252Bg%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEU-FR1V101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="FSV1045V">
+      <description>ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A</description>
+      <docs>http://www.onsemi.com/pub/Collateral/340BQ.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">FSV1045V</field>
+        <field name="Footprint">FSV1045V</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/340BQ.PDF</field>
+        <field name="Description">ON SEMICONDUCTOR - FSV1045V - RECTIFIER, SCHOTTKY, 10A, 45V, TO-277A</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">512-FSV1045V</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV1045V?qs=Qe1jOhZwee1FB3knxHzFdQ%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FSV1045V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE_1" type="passive"/>
+        <pin num="2" name="ANODE_2" type="passive"/>
+        <pin num="3" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="INA199C1QDCKRQ1">
+      <description>AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier</description>
+      <docs>http://www.ti.com/lit/gpn/ina199-q1</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA199C1QDCKRQ1</field>
+        <field name="Footprint">SOT65P210X110-6N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/ina199-q1</field>
+        <field name="Description">AEC-Q100, 26V, Bi-Directional, Zero-Drift, Low-/High-Side, Voltage Output Current Sense Amplifier</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">595-INA199C1QDCKRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C1QDCKRQ1/?qs=0C8XhJW8e4oUB5QKvgAXaQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA199C1QDCKRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="V+" type="passive"/>
+        <pin num="4" name="IN+" type="passive"/>
+        <pin num="5" name="IN-" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LM3409MY_NOPB">
+      <description>PFET Buck Controller for High Power LED Drives</description>
+      <docs>http://www.ti.com/lit/gpn/lm3409</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM3409MY_NOPB</field>
+        <field name="Footprint">SOP50P490X109-11N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/lm3409</field>
+        <field name="Description">PFET Buck Controller for High Power LED Drives</field>
+        <field name="Height">1.09</field>
+        <field name="Mouser Part Number">926-LM3409MY/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3409MY-NOPB?qs=X1J7HmVL2ZGqIpHW5lOXJA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM3409MY/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UVLO" type="passive"/>
+        <pin num="2" name="IADJ" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="COFF" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="PGATE" type="passive"/>
+        <pin num="7" name="CSN" type="passive"/>
+        <pin num="8" name="CSP" type="passive"/>
+        <pin num="9" name="VCC" type="passive"/>
+        <pin num="10" name="VIN" type="passive"/>
+        <pin num="11" name="DAP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP4726A0T-E_CH">
+      <description>12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP4726A0T-E_CH</field>
+        <field name="Footprint">SOT95P270X145-6N</field>
+        <field name="Description">12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">579-MCP4726A0TECH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP4726A0T-E/CH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+        <pin num="5" name="SCL" type="passive"/>
+        <pin num="6" name="VREF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TBP01R1-508-04BE">
+      <description>Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue</description>
+      <docs>https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TBP01R1-508-04BE</field>
+        <field name="Footprint">TBP01R150804BE</field>
+        <field name="Datasheet">https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0008491088/CUIS-S-A0010218168-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0</field>
+        <field name="Description">Pluggable Terminal Blocks Terminal block, pluggable, 5.08, receptical, 4 pole, blue</field>
+        <field name="Height">8.9</field>
+        <field name="Mouser Part Number">490-TBP01R1-508-04BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TBP01R1-508-04BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TLA2022IRUGR">
+      <description>12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications</description>
+      <docs>http://www.ti.com/lit/gpn/tla2022</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLA2022IRUGR</field>
+        <field name="Footprint">TLA2022IRUGR</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/tla2022</field>
+        <field name="Description">12-Bit 1-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications</field>
+        <field name="Height">0.4</field>
+        <field name="Mouser Part Number">595-TLA2022IRUGR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLA2022IRUGR?qs=chTDxNqvsykyg71nZ9VtJw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLA2022IRUGR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="NC_1" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="NC_2" type="input"/>
+        <pin num="7" name="NC_3" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+        <pin num="9" name="SDA" type="passive"/>
+        <pin num="10" name="SCL" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TLV431CSN1T1G">
+      <description>Voltage References LOW VOLTAGE PRECISION ADJ</description>
+      <docs>https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV431CSN1T1G</field>
+        <field name="Footprint">SOT96P237X111-3N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF</field>
+        <field name="Description">Voltage References LOW VOLTAGE PRECISION ADJ</field>
+        <field name="Height">1.11</field>
+        <field name="Mouser Part Number">863-TLV431CSN1T1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TLV431CSN1T1G?qs=dbuNSGnowt1DjYMSHayOCQ%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TLV431CSN1T1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REFERENCE" type="passive"/>
+        <pin num="2" name="CATHODE" type="passive"/>
+        <pin num="3" name="ANODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/StaticPopcorn/Documents/PCB Library/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="3" name="GNDD">
+      <node ref="J2" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="C9" pin="2"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="5" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="8" name="+12V">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="9" name="Rsen+">
+      <node ref="D2" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="10" name="SDA">
+      <node ref="J2" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="11" name="SCL">
+      <node ref="R10" pin="1"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="J2" pin="1"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D3-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C13-Pad1)">
+      <node ref="IC2" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="15" name="Peltier+">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="16" name="Peltier-">
+      <node ref="D1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(IC3-Pad7)">
+      <node ref="IC3" pin="7"/>
+    </net>
+    <net code="18" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="19" name="Net-(C9-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(Q1-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(L1-Pad1)">
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+  </nets>
+</export>
